@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingPrefix">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darker_grey_light"
+            android:padding="@dimen/margin_15">
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="@dimen/size_25"
+                android:layout_height="@dimen/size_25"
+                android:contentDescription="@string/back_button"
+                android:src="@drawable/ic_back_image" />
+
+            <TextView
+                android:id="@+id/edit_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/back_button"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/back_button"
+                android:text="@string/edit"
+                android:textColor="@android:color/background_dark"
+                android:textSize="@dimen/textsize_14" />
+
+            <TextView
+                android:id="@+id/add_widget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/back_button"
+                android:layout_alignTop="@id/back_button"
+                android:layout_marginEnd="@dimen/size_10"
+                android:layout_marginRight="@dimen/size_10"
+                android:layout_toLeftOf="@id/edit_textview"
+                android:layout_toStartOf="@id/edit_textview"
+                android:text="@string/add_widget_option"
+                android:textColor="@android:color/background_dark"
+                android:textSize="@dimen/textsize_14" />
+
+            <TextView
+                android:id="@+id/reise_detail_title"
+                fontPath="fonts/candy.otf"
+                android:layout_width="@dimen/size_200"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/back_button"
+                android:layout_marginLeft="@dimen/size_40"
+                android:layout_marginStart="@dimen/size_40"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textsize_70"
+                android:transitionName="simple_title_animation"
+                tools:ignore="UnusedAttribute"
+                tools:text="And then there were none" />
+
+            <TextView
+                android:id="@+id/reise_detail_last_updated"
+                android:layout_width="@dimen/size_200"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reise_detail_title"
+                android:layout_marginLeft="@dimen/size_40"
+                android:layout_marginStart="@dimen/size_40"
+                android:layout_marginTop="@dimen/size_10"
+                android:textColor="@color/darker_grey"
+                android:textSize="@dimen/textsize_12"
+                tools:text="Last Updated. Today 6:30 pm" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/size_20"
+            android:paddingEnd="@dimen/size_30"
+            android:paddingLeft="@dimen/size_55"
+            android:paddingRight="@dimen/size_30"
+            android:paddingStart="@dimen/size_55">
+
+            <TextView
+                android:id="@+id/reise_detail_desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/darker_grey_two"
+                android:textSize="@dimen/textsize_16"
+                tools:text="Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm Lorem Empusm " />
+
+            <TextView
+                android:id="@+id/text_retrive_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reise_detail_last_updated"
+                android:layout_marginLeft="@dimen/size_40"
+                android:layout_marginStart="@dimen/size_40"
+                android:layout_marginTop="@dimen/size_10"
+                android:hint="url kamu yang seta"
+                android:textColor="@color/darker_grey"
+                android:textSize="@dimen/textsize_12"
+                tools:text="Last Updated. Today 6:30 pm" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1061175669570",
+    "firebase_url": "https://reisenote1.firebaseio.com",
+    "project_id": "reisenote1",
+    "storage_bucket": "reisenote1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061175669570:android:50e6f491dc9af0ba",
+        "android_client_info": {
+          "package_name": "com.example.fajar.reisenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061175669570-f1s8i2dc3103vh21asomf1e0jqrb5cdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPcL4-6cU5N6fxkC6V9HRTQKPiQquB7YA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

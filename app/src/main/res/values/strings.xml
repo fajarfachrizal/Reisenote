@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reisenote</string>
+    <string name="delete">Delete</string>
+    <string name="filter">Filter</string>
+
+    <string name="save">Save</string>
+    <string name="undo">Undo</string>
+    <string name="enter_the_title_here">Enter the Title</string>
+    <string name="here_goes_your_description">Write your story here</string>
+    <string name="edit">EDIT</string>
+    <string name="saved_successfully">Diary saved successfully</string>
+    <string name="apply">Apply</string>
+    <string name="filter_not_available">Continent filters are not available at the moment</string>
+    <string name="Reisenote">Reisenote</string>
+    <string name="add_widget_option">ADD TO WIDGET</string>
+    <string name="no_widget_make_one">No widget. Please add one.</string>
+    <string name="clears_filter">Clears filter</string>
+    <string name="back_button">back button</string>
+    <string name="filter_adapter_tick">filter adapter tick</string>
+    <string name="reise_delete_button">notes delete button</string>
+    <string name="reise_fav_button">notes fav button</string>
+    <string name="reise_star_button">notes star button</string>
+    <string name="filter_apply_button">Filter Apply Button</string>
+    <string name="choose_image">Go to select image</string>
+    <string name="select_btn">Select image</string>
+    <string name="upload_btn">upload to server</string>
+    <string name="add_image">please add image first</string>
+    <string name="uploadfirst">Hey Upload Image first before you write your story!</string>
+    <string name="try_again_letter">try again later</string>
+    <string name="row_deleted">row deleted!</string>
+    <string name="undo_unavailable">Undo is not available for Title</string>
+    <string name="those_cant_empty">those cant be empty</string>
+    <string name="reise_updated">Diary is updated</string>
+    <string name="unable_update_diary">Unable to update diary</string>
+    <string name="please_make_widget_first">please make a widget first</string>
+    <string name="diary_added">Your diary has been added</string>
+    <string name="upload_success">Upload successful</string>
+    <string name="upload_failed">Upload Failed</string>
+    <string name="select_image">Select an image</string>
+    <bool name="is_tablet">false</bool>
+</resources>
